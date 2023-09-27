@@ -10,6 +10,7 @@
 
 body {
   width: 100%;
+  scroll-behavior: smooth;
   --rpad-lg: 4rem;
   --rpad-md: 3rem;
   --rpad-sm: 2rem;
@@ -123,8 +124,12 @@ main .hero .cta {
   transition: 300ms all;
 }
 main .hero .cta:hover {
-  background-color: var(--tertd);
+  background-color: white;
   color: var(--sun);
+}
+main .hero a {
+  text-decoration: none;
+  color: inherit;
 }
 main .card-section {
   width: 100%;
