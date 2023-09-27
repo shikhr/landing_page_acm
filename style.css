@@ -352,9 +352,13 @@ main .mail-section {
   header .ham {
     display: block;
     margin-left: 20px;
+    user-select: none;
+    -webkit-user-drag: none;
   }
   header .ham img {
     width: 32px;
+    user-select: none;
+    -webkit-user-drag: none;
   }
   header nav {
     display: none;
